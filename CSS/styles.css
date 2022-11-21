@@ -1,0 +1,206 @@
+.conteiner{
+    max-width: 1366px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #F2F5F8;
+}
+
+/* ჰედერი */
+header{
+    width: 100%;
+    background-color: #FFFFFF;
+    padding: 30px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.logo{
+    display: flex;
+    flex-wrap: wrap;
+    width: 102px;
+    height: 35px;
+ 
+ }
+
+.search{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.ul1{
+    display: flex;
+    gap: 69px;
+}
+
+.li1{
+    font-size: 14px;
+    color: #8172D5;
+}
+
+
+/* პირველი სექცია */
+
+.section1{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    gap: 16px;
+    margin: 74px auto 54px auto;
+
+
+}
+
+h3{
+  margin-bottom: 14px;
+    font-size: 18px;
+    color: #133B3A;
+}
+
+.leftpart1{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;  
+}
+
+.figure1{
+padding: 18px 18px 15px 18px;
+background-color:#FFFFFF ;   
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-around
+}
+
+.photo1{
+    width: 95%;
+    height: 80%;
+margin-bottom: 20px;
+}
+
+.figcaption1{
+    width: 95%;
+    font-size: 24px;
+    color: #133B3A;
+    text-align: center;
+}
+
+/* მაჯვენა ნაწილი */
+
+.rightpart1{
+    width: 30%;
+
+}
+
+.iconlinks{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    gap: 90px 0px;
+    padding: 90px;
+}
+
+.icons{
+    color: #758BFD;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+/* მეორე სექცია  */
+.section2{
+width: 80%;
+margin: 0 auto;
+}
+.newstxt{
+    font-size: 18px;
+    color: #133B3A;
+    margin-bottom: 25px;
+}
+
+.box1{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 19px;
+
+    }
+    .box2{
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+.figure2{
+    width: 22%;
+    height: 368px;
+    background-color:#FFFFFF ;
+    border-radius: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    
+
+}
+.figcaption2{
+    font-size: 20px;
+    width: 76%;
+    text-align: center;
+}
+
+
+.date {
+    background-color: #FFFFFF;
+    font-size: 12px;
+    display: flex;
+    text-align: center;
+    margin-top: 30px;
+    
+}
+
+
+
+footer{
+    margin-top: 75px;
+    background-color: #758BFD;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.endlogo{
+    font-size: 14px;
+    font-weight: bold;
+    color: #FFFFFF;
+    display: flex;
+    flex-wrap: wrap;
+
+   
+}
+.footernav{
+    display: flex;
+    flex-direction: row;
+    
+  
+}
+
+.ul2{
+    gap: 69px;
+    display: flex;
+   
+    
+}
+
+.li2{
+    font-size: 14px;
+    color: #ffffff;
+
+ 
+}
